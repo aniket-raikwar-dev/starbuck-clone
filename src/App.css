@@ -248,7 +248,7 @@
 }
 
 .combine-price-btn {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
@@ -967,7 +967,7 @@ footer {
     height: 32px;
     border-radius: 25px;
     margin-top: 45px;
-    margin-right: 15px;
+    margin-right: 0px;
     font-size: 12px;
   }
 
@@ -976,6 +976,7 @@ footer {
   }
 
   .boxy-card {
+    width: 95%;
     margin-right: 20px !important;
   }
   .boxy-btn-container {
@@ -1063,7 +1064,7 @@ footer {
   }
 
   .green-gift-box {
-    padding: 15px 20px;
+    padding: 15px 12px;
   }
   .show-route-name {
     display: none;
@@ -1107,7 +1108,7 @@ footer {
     padding: 20px 15px 10px 15px;
   }
   .order-content {
-    width: 65%;
+    width: 70%;
     margin-top: -5px;
   }
   .store-container {
@@ -1127,13 +1128,13 @@ footer {
   .store-map-box {
     width: 100%;
     height: 350px;
-
   }
   .gift-card-box {
     width: 100%;
   }
   .order-card-box {
     width: 100%;
+    height: 210px;
   }
   .full-map-img {
     width: 100%;
@@ -1141,5 +1142,18 @@ footer {
     object-fit: fill;
     margin-top: 0px;
   }
-  
+  .barista-item {
+    width: 95%;
+    cursor: pointer;
+  }
+  .gift-order-btn {
+    margin-top: 35px;
+  }
+  .gift-card-content {
+    width: 85%;
+    height: 180px;
+  }
+  .btn-location {
+    padding-bottom: 3px;
+  }
 }

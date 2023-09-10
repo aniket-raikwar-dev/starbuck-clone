@@ -99,7 +99,7 @@ export const bestSellerItems = [
   },
   {
     id: 4,
-    title: "Double Chocolate Chip Frappuccino",
+    title: "Double Chocolate Chip",
     tagline: "TALL(354 ML) .392 kcal",
     description:
       "Rich mocha-flavored sauce meets up with chocolaty chips, mil...",

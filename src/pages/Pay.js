@@ -9,7 +9,7 @@ const customStyles = {
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
-    width: "400px",
+    width: "92%",
     height: "300px",
     transform: "translate(-50%, -50%)",
     borderRadius: "15px",
