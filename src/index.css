@@ -1,13 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "FreightSans";
+  src: local("FreightSansProLightRegular"),
+    url("./fonts/FreightSansProLightRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FreightSansRegular";
+  src: local("FreightSansProBookRegular"),
+    url("./fonts/FreightSansProBookRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FreightSansRegularBold";
+  src: local("FreightSansProSemiboldRegular"),
+    url("./fonts/FreightSansProSemiboldRegular.ttf") format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
