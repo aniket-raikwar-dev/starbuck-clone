@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SearchIcon from "../images/search-line.svg";
 import ShowRoutesName from "../components/ShowRoutesName";
 import Map from "../images/map.png";
 import Footer from "../components/Footer";
 
 const Store = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="home-container">
       <ShowRoutesName routeName={"Store"} />

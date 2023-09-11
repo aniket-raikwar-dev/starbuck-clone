@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ShowRoutesName from "../components/ShowRoutesName";
 import LocationIcon from "../images/icons8-location-30.png";
 import ClockIcon from "../images/icons8-clock-48.png";
@@ -28,6 +28,10 @@ const Order = () => {
   const [orderSelectedSlug, setOrderSelectedSlug] = useState(orderSlug);
   const [showSelectedOrderItem, setShowSelectedOrderItem] =
     useState(bestSellerItems);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const selectOrderType = (orderId, orderSlug) => {
     const updatedOrderTypes = orderTypes.map((order) => ({

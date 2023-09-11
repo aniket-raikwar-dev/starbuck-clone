@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {
@@ -51,6 +51,10 @@ const topMenuItem = [
 
 const Home = () => {
   const [topItems, setTopItems] = useState(topMenuItem);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleMouseEnter = (id) => {
     const updatedMenuItem = topItems.map((item) => {

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useHistory } from "react-router-dom";
 import Gift from "./pages/Gift";
 import Order from "./pages/Order";
 import Pay from "./pages/Pay";
@@ -10,6 +10,8 @@ import Store from "./pages/Store";
 import Search from "./pages/Search";
 
 function App() {
+  
+
   return (
     <div>
       <BrowserRouter>

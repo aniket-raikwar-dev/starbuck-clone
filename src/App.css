@@ -27,7 +27,7 @@
   align-items: center;
 }
 .nav-container-right {
-  width: 400px;
+  width: 390px;
 }
 
 .nav-logo {
@@ -59,7 +59,7 @@
   cursor: pointer;
 }
 .search-bar-container {
-  width: 250px;
+  width: 260px;
   height: 35px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(79, 79, 79, 0.1) 0px 1px 5px;
@@ -248,7 +248,7 @@
 }
 
 .combine-price-btn {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -1155,5 +1155,14 @@ footer {
   }
   .btn-location {
     padding-bottom: 3px;
+  }
+  .store-search-bar-container {
+    width: 90%;
+  }
+  .coffee-bg-img {
+    padding: 15px;
+  }
+  .combine-price-btn {
+    width: 90%;
   }
 }

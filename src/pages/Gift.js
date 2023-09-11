@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ShowRoutesName from "../components/ShowRoutesName";
 import Footer from "../components/Footer";
 import {
@@ -21,6 +21,10 @@ const giftTypeCollection = [
 const Gift = () => {
   const [giftTypes, setGiftTypes] = useState(giftTypeCollection);
   const [selectedGiftItems, setSelectedGiftItems] = useState(featuredItems);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const selectGiftType = (giftId) => {
     const updatedGiftTypes = giftTypes.map((gift) => ({
