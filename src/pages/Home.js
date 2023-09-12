@@ -52,8 +52,17 @@ const topMenuItem = [
 const Home = () => {
   const [topItems, setTopItems] = useState(topMenuItem);
 
+
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const scrollStep = -window.scrollY / (250 / 15); 
+    const scrollInterval = setInterval(() => {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
+    return () => clearInterval(scrollInterval);
   }, []);
 
   const handleMouseEnter = (id) => {

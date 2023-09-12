@@ -5,9 +5,16 @@ import Map from "../images/map.png";
 import Footer from "../components/Footer";
 
 const Store = () => {
-
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const scrollStep = -window.scrollY / (250 / 15);
+    const scrollInterval = setInterval(() => {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
+    return () => clearInterval(scrollInterval);
   }, []);
 
   return (

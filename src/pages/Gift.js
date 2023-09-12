@@ -22,8 +22,17 @@ const Gift = () => {
   const [giftTypes, setGiftTypes] = useState(giftTypeCollection);
   const [selectedGiftItems, setSelectedGiftItems] = useState(featuredItems);
 
+
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const scrollStep = -window.scrollY / (250 / 15); 
+    const scrollInterval = setInterval(() => {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
+    return () => clearInterval(scrollInterval);
   }, []);
 
   const selectGiftType = (giftId) => {

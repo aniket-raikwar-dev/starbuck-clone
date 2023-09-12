@@ -7,7 +7,6 @@ import Gift from "./pages/Gift";
 import Order from "./pages/Order";
 import Pay from "./pages/Pay";
 import Store from "./pages/Store";
-import Search from "./pages/Search";
 
 function App() {
   
@@ -22,7 +21,6 @@ function App() {
           <Route path="/order" element={<Order />} />
           <Route path="/pay" element={<Pay />} />
           <Route path="/store" element={<Store />} />
-          <Route path="/search" element={<Search />} />
         </Routes>
       </BrowserRouter>
     </div>
