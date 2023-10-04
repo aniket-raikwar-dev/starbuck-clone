@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+# Starbucks Clone App
+
+##### Welcome to the Starbucks Clone App, where you can experience the taste of Starbucks without leaving your home. This app brings the coffee shop experience to your fingertips.
+
+#### Live App Link: https://starbuck-clone-ar.netlify.app/
+
+### About Starbucks Clone App
+It is a replica or exact the same app of Original Starbuck Web App, I have built this app only for to showing the Frontend Development Tech Skill, where I try to make it as much as same as the original one, It is just copy app and static app, You cannot order coffee from here. It has a Responsive Design so User can open this App from their Mobile Device.
+
+### Starbuck Clone UI Glimpse
+<img width="1439" alt="Screenshot 2023-10-04 at 1 09 34 PM" src="https://github.com/aniket-6234/starbuck-clone/assets/65860069/4d86ed22-17e2-4621-89fa-101773fe38a6">
+<img width="1440" alt="Screenshot 2023-10-04 at 1 09 46 PM" src="https://github.com/aniket-6234/starbuck-clone/assets/65860069/8e2cb906-c45b-4f06-b76f-a597105c09ab">
+<img width="1433" alt="Screenshot 2023-10-04 at 1 10 14 PM" src="https://github.com/aniket-6234/starbuck-clone/assets/65860069/f2025e68-8c03-4e36-a469-2031cc32a295">
+<img width="1439" alt="Screenshot 2023-10-04 at 1 10 26 PM" src="https://github.com/aniket-6234/starbuck-clone/assets/65860069/f7921e94-daf7-4862-a10a-b3bdfdceb5a3">
+<img width="1437" alt="Screenshot 2023-10-04 at 1 10 46 PM" src="https://github.com/aniket-6234/starbuck-clone/assets/65860069/0ba541a7-6808-40d5-8c67-c9ff50eaa744">
+<img width="1439" alt="Screenshot 2023-10-04 at 1 13 49 PM" src="https://github.com/aniket-6234/starbuck-clone/assets/65860069/062df53d-395f-4f87-84fb-790d82728968">
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,58 +32,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
