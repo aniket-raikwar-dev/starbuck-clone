@@ -1,4 +1,4 @@
-# Starbucks Clone App
+# Starbucks Clone App ✨
 
 ##### Welcome to the Starbucks Clone App, where you can experience the taste of Starbucks without leaving your home. This app brings the coffee shop experience to your fingertips.
 
