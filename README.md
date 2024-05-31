@@ -2,7 +2,7 @@
 
 ##### Welcome to the Starbucks Clone App, where you can experience the taste of Starbucks without leaving your home. This app brings the coffee shop experience to your fingertips.
 
-#### Live App Link: https://starbuck-clone-ar.netlify.app/
+#### Live App Link: https://starbuck-clone-01.netlify.app/
 
 ### About Starbucks Clone App
 It is a replica or exact the same app of Original Starbuck Web App, I have built this app only for to showing the Frontend Development Tech Skill, where I try to make it as much as same as the original one, It is just copy app and static app, You cannot order coffee from here. It has a Responsive Design so User can open this App from their Mobile Device.
