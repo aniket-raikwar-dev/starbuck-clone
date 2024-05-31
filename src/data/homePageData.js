@@ -1,3 +1,5 @@
+import { importImage } from "../utils/importImage";
+
 export const bigCarouselData = [
   {
     id: 1,
@@ -40,8 +42,8 @@ export const bigCarouselData = [
 export const boxCardData = [
   {
     id: 1,
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/104014.webp",
-    head1: "Mocha Cookie Crumble Latte ",
+    img: importImage("offerings/belgium.webp"),
+    head1: "Belgium Chocolate Frappuccino",
     head2: "SHORT(Short Mocha Cookie Crumble) ",
     head3:
       "Our Mocha Cookie crumble Latte is a deliciously flavoured mocha indulgence - Hot coffee meets chocolate and co...",
@@ -49,7 +51,7 @@ export const boxCardData = [
   },
   {
     id: 2,
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/104008.webp",
+    img: importImage("offerings/mocha.webp"),
     head1: "Mocha Cookie Crumble Frappuccino",
     head2: "TALL(Tall Mocha Cookie Crumble Frappuccino)",
     head3:
@@ -58,7 +60,7 @@ export const boxCardData = [
   },
   {
     id: 3,
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/104018.webp",
+    img: importImage("offerings/iced.webp"),
     head1: "Iced Mocha Cookie Crumble",
     head2: "TALL(Iced Tall Mocha Cookie Crumble)",
     head3:
@@ -67,8 +69,8 @@ export const boxCardData = [
   },
   {
     id: 4,
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/114038.webp",
-    head1: "Strawberry Acai Lemonade Refresher",
+    img: importImage("offerings/mango.webp"),
+    head1: "Alphonso Mango Java Chip Frappuccino",
     head2: "TALL(Tall Strawberry Acai Lemonade)",
     head3:
       "Sweet strawberry flavours accented by açaí notes, shaken with ice and strawberry pieces — a welcoming sweet sp...",
@@ -83,7 +85,7 @@ export const baristaItem = [
     price: "204.75",
     isVeg: true,
     description: "PER SERVE (50 g)  - 302 Kcal",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/112595.webp",
+    img: importImage("barista/triangle.jpeg"),
   },
   {
     id: 2,
@@ -91,7 +93,7 @@ export const baristaItem = [
     price: "194.25",
     isVeg: false,
     description: "PER SERVE (85 g)  - 390 Kcal",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/112601.webp",
+    img: importImage("barista/bhuna.jpeg"),
   },
   {
     id: 3,
@@ -99,7 +101,7 @@ export const baristaItem = [
     price: "288.75",
     isVeg: true,
     description: "PER SERVE (80 g) - 416kcal",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/113008.webp",
+    img: importImage("barista/choclate.jpeg"),
   },
   {
     id: 4,
@@ -107,7 +109,7 @@ export const baristaItem = [
     price: "262.50",
     isVeg: true,
     description: "PER SERVE (180 g)  - 513 Kcal",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/112737.webp",
+    img: importImage("barista/dip.jpeg"),
   },
   {
     id: 5,
@@ -115,6 +117,6 @@ export const baristaItem = [
     price: "283.50",
     isVeg: true,
     description: "PER SERVE (160 g) - 598 kcal",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/113001.webp",
+    img: importImage("barista/chilli.jpeg"),
   },
 ];

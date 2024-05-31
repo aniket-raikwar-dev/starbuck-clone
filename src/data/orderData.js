@@ -1,3 +1,5 @@
+import { importImage } from "../utils/importImage";
+
 export const orderSlug = [
   {
     id: 1,
@@ -38,7 +40,7 @@ export const merchandiseItems = [
     tagline: "PER SERVE (50 g) - 630.2 kCal",
     description: "Gray green snowflake double walled mug for cold beverages on",
     price: "1500.00",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/109297.jpg",
+    img: importImage("order/merchandise/snowflake.jpeg"),
   },
   {
     id: 2,
@@ -47,7 +49,7 @@ export const merchandiseItems = [
     description:
       "A desktop mug featuring a painting of artistic leaves. A pre.",
     price: "650.00",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/109511.jpg",
+    img: importImage("order/merchandise/india.jpeg"),
   },
   {
     id: 3,
@@ -56,7 +58,7 @@ export const merchandiseItems = [
     description:
       "Experience the iridescent look of the siren on coral reef an...",
     price: "1100.00",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/113395.jpg",
+    img: importImage("order/merchandise/rabbit.jpeg"),
   },
   {
     id: 4,
@@ -65,7 +67,7 @@ export const merchandiseItems = [
     description:
       "Mug with all over glossy finish and giraffe head ornament o...",
     price: "750.00",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/113584.jpg",
+    img: importImage("order/merchandise/drip.jpeg"),
   },
 ];
 
@@ -77,7 +79,7 @@ export const bestSellerItems = [
     description:
       "We blend mocha sauce and Frappuccino® chips with Frappuccino...",
     price: "367.50",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/100501.jpg",
+    img: importImage("order/bestseller/java.jpeg"),
   },
   {
     id: 2,
@@ -86,7 +88,7 @@ export const bestSellerItems = [
     description:
       "Rich in flavour, full-bodied espresso with hot water in true...",
     price: "262.50",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/100433.jpg",
+    img: importImage("order/bestseller/caffe.jpeg"),
   },
   {
     id: 3,
@@ -95,7 +97,7 @@ export const bestSellerItems = [
     description:
       "Dark, Rich in flavour espresso lies in wait under a smoothed...",
     price: "283.50",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/100419.jpg",
+    img: importImage("order/bestseller/cappucino.jpeg"),
   },
   {
     id: 4,
@@ -104,7 +106,7 @@ export const bestSellerItems = [
     description:
       "Rich mocha-flavored sauce meets up with chocolaty chips, mil...",
     price: "367.50",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/103515.jpg",
+    img: importImage("order/bestseller/double.jpeg"),
   },
   {
     id: 5,
@@ -113,7 +115,7 @@ export const bestSellerItems = [
     description:
       "Buttery vanilla cake with berries dusted with granulated sug...",
     price: "320.25",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/100075.jpg",
+    img: importImage("order/placeholder.svg"),
   },
   {
     id: 6,
@@ -122,28 +124,26 @@ export const bestSellerItems = [
     description:
       "A soft & chewy chocolate cookie topped with chocolate chips ...",
     price: "294.25",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/107707.jpg",
+    img: importImage("order/bestseller/chip.jpeg"),
   },
 ];
 
 export const drinksItems = [
   {
     id: 1,
-    title: "Pumpkin spice latte",
+    title: "Iced Caffe Mocha",
     tagline: "SHORT(237 ML) .216 kcal",
-    description:
-      "Our signature espresso and steamed milk with the celebrated ",
+    description: "Our signature espresso and steamed milk with the celebrated ",
     price: "414.75",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/102253.jpg",
+    img: importImage("order/drinks/iced.jpeg"),
   },
   {
     id: 2,
-    title: "Iced Pumpkin Spice Latte",
+    title: "Iced Caffe Slice Latte",
     tagline: "TALL(Iced Tall Pumpkin Spice Latte) .296 kcal",
-    description:
-      "Our signature espresso and milk with the celebrated flavor c",
+    description: "Our signature espresso and milk with the celebrated flavor c",
     price: "456.75",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/102257.jpg",
+    img: importImage("order/drinks/mocha.jpeg"),
   },
   {
     id: 3,
@@ -152,29 +152,26 @@ export const drinksItems = [
     description:
       "Our Mocha Cookie crumble Latte is a deliciously flavoured mo..",
     price: "414.75",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/104014.jpg",
+    img: importImage("order/drinks/vanilla.jpeg"),
   },
 ];
-
 
 export const readyToEatItems = [
   {
     id: 1,
     title: "Roasted & Salted Almonds",
     tagline: "PER SERVE (50 g) - 630.2 kCal",
-    description:
-      "Roasted and Salted Almonds",
+    description: "Roasted and Salted Almonds",
     price: "180.00",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/101995_1.jpg",
+    img: importImage("order/eat/roasted.jpeg"),
   },
   {
     id: 2,
     title: "Cranberry Coated Nuts",
     tagline: "Energy per serving size- 500.6kCal/100g.",
-    description:
-      "Chocolate coated cranberry bites. Product size- 50g.",
+    description: "Chocolate coated cranberry bites. Product size- 50g.",
     price: "185.00",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/114093_1.jpg",
+    img: importImage("order/eat/coasted.jpeg"),
   },
   {
     id: 3,
@@ -183,6 +180,6 @@ export const readyToEatItems = [
     description:
       "Delicious on its own or a perfect pairing with your favorite.",
     price: "160.00",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/103599_1.jpg",
+    img: importImage("order/eat/almond.jpeg"),
   },
-]
+];

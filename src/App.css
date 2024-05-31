@@ -288,12 +288,13 @@
   height: 80px;
   border-radius: 5px;
   background-color: rgb(148, 148, 103);
-}
-.barista-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  object-fit: cover;
+
+  .barista-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }
 }
 
 .boxy-card {
@@ -323,6 +324,7 @@
   height: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  object-fit: cover;
 }
 .boxy-card-content {
   padding: 10px 15px;
@@ -441,12 +443,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: background-color 1s ease;
+  transition: -webkit-filter 1s ease, filter 1s ease, background-color 1s ease;
   -webkit-filter: brightness(100%);
 }
 
 .coffee-bg-img:hover {
-  transition: background-color 0.3s ease;
+  transition: -webkit-filter 1s ease, filter 1s ease, background-color 1s ease;
   -webkit-filter: brightness(60%);
 }
 

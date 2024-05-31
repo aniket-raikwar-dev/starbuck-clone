@@ -9,42 +9,44 @@ import {
 import VegIcon from "../images/veg-icon.png";
 import NonVegIcon from "../images/non-veg-48.png";
 import Footer from "../components/Footer";
+import { importImage } from "../utils/importImage";
+
 
 const topMenuItem = [
   {
     id: 1,
     name: "Bestseller",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Bestseller.jpg",
+    img: importImage("handcrafts/Bestseller.jpg"),
     isHovered: false,
   },
   {
     id: 2,
     name: "Drinks",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Drinks.jpg",
+    img: importImage("handcrafts/Drinks.jpg"),
     isHovered: false,
   },
   {
     id: 3,
     name: "Food",
-    img: "	https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Food.jpg",
+    img: importImage("handcrafts/Food.jpg"),
     isHovered: false,
   },
   {
     id: 4,
     name: "Merchandise",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Merchandise.jpg",
+    img: importImage("handcrafts/Merchandise.jpg"),
     isHovered: false,
   },
   {
     id: 5,
     name: "Coffee At Home",
-    img: "https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/CoffeeAtHome.jpg",
+    img: importImage("handcrafts/CoffeeAtHome.jpg"),
     isHovered: false,
   },
   {
     id: 6,
     name: "Ready to Eat",
-    img: "	https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/ReadyToEat.jpg",
+    img: importImage("handcrafts/ReadyToEat.jpg"),
     isHovered: false,
   },
 ];
@@ -52,9 +54,8 @@ const topMenuItem = [
 const Home = () => {
   const [topItems, setTopItems] = useState(topMenuItem);
 
-
   useEffect(() => {
-    const scrollStep = -window.scrollY / (250 / 15); 
+    const scrollStep = -window.scrollY / (250 / 15);
     const scrollInterval = setInterval(() => {
       if (window.scrollY !== 0) {
         window.scrollBy(0, scrollStep);
